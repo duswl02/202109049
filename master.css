@@ -2,14 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
 
 .box1{
-    width:1920px;
     height: 1406px;
     background-image: url('img/bg01.png');
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
 }
 .box1 > .logo {
     position: absolute;
