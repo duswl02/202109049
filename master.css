@@ -1,0 +1,425 @@
+*{margin:0; padding:0; text-decoration: none;}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+
+.box1{
+    height: 1406px;
+    background-image: url('img/bg01.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 > .logo {
+    position: absolute;
+    width: 100%;
+    height:1406px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 > .logo > img{
+    position: absolute;
+    top: 106px;
+
+}
+
+.box1 > .wrap{
+    position: absolute;
+    width: 1100px;
+    height:1406px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box1 > .wrap > img{
+    position: absolute;
+    bottom: 10px;
+}
+
+.box2{
+    height: 604px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box2 > .wrap{
+    position: absolute;
+    width: 1100px;
+    height:604px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 > .wrap > .title{
+    position: absolute;
+    text-align: center;
+    line-height:50px ;
+    font-size: 30px;
+    top: 30px;
+    font-style: Noto Sans KR;
+    font-weight: 300;
+    color: #000000;
+    letter-spacing: -0.04em;
+}
+.box2 > .wrap > .title2{
+    position: absolute;
+    text-align: center;
+    line-height:50px ;
+    font-size: 75px;
+    top: 110px;
+    font-style: Noto Sans KR;
+    font-weight: 900;
+    color: #00284B;
+    letter-spacing: -0.04em;
+}
+
+
+.box2 > .wrap > .typo1{
+    position: absolute;
+    text-align: center;
+    line-height:50px ;
+    font-size: 23px;
+    bottom: 110px;
+    font-style: Noto Sans KR;
+    font-weight: 300;
+    color: #000000;
+    letter-spacing: -0.04em;
+
+}
+
+
+.box3{
+    height: 630px;
+    background-image: url('img/bg02.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 > .wrap{
+    position: absolute;
+    width: 1100px;
+    height:630px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3 > .wrap > img{
+    position: absolute;
+    top: 100px;
+
+}
+
+.box3 > .wrap > .typo5{
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    bottom: 100px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: -0.04em;
+}
+
+
+
+.box4{
+    height: 886px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 > .wrap{
+    position: absolute;
+    width: 1100px;
+    height:886px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4 > .wrap > img{
+    position: absolute;
+    top: 290px;
+    left:50px;    
+}
+
+.box4 > .wrap2{
+    position: absolute;
+    width: 1100px;
+    height:886px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 > .wrap2 > .title3{
+    position: absolute;
+    text-align: left;
+    line-height:50px ;
+    font-size: 50px;
+    left: 50px;
+    top: 70px;
+    font-style: Noto Sans KR;
+    font-weight: 900;
+    color: #00284B;
+    letter-spacing: -0.04em;
+}
+
+.box4 > .wrap2 > .title3_1{
+    position: absolute;
+    text-align: left;
+    line-height:50px ;
+    font-size: 20px;
+    left: 50px;
+    top: 130px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    color: #00284B;
+    letter-spacing: -0.04em;
+}
+
+.box4 > .wrap2 > .typo2{
+    position: absolute;
+    text-align: left;
+    line-height:40px ;
+    font-size: 18px;
+    top: 280px;
+    left: 100px;
+    font-style: Noto Sans KR;
+    font-weight: 300;
+    color:#000000;
+    letter-spacing: -0.01em;
+}
+
+.box4 > .wrap1{
+    position: absolute;
+    width: 1100px;
+    height:886px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4 > .wrap1 > img{
+    position: absolute;
+    top: 120px;
+    right:50px;
+}
+
+.box5{
+    height: 526px;
+    background-image: url('img/bg03.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 > .wrap{
+    position: absolute;
+    width: 1100px;
+    height:526px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 > .wrap > .title4{
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    top: 50px;
+    font-style: Noto Sans KR;
+    font-weight: 900;
+    color:#fff;
+}
+
+.box5 > .wrap > .title4_1{
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    top: 130px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    color:#fff;
+}
+
+.box5 > .wrap > .typo3{
+    position: absolute;
+    text-align: center;
+    line-height:40px ;
+    font-size: 18px;
+    top: 200px;
+    font-style: Noto Sans KR;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: -0.01em;
+}
+
+
+.box5 .colorbox {
+    position: absolute;
+    top: 331px;
+    width: 80%;
+    display: flex; 
+    border: 0px solid red;
+    justify-content: space-between;
+    list-style:none;
+} 
+.box5 .color {
+    position: absolute;
+    top: 331px;
+    width: 80%;
+    border: 0px solid red;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.box5 .colorbox1 {
+    width: 210px; height: 138px; background: #fff;
+    box-sizing: border-box;
+    padding-top:20px;
+}
+
+.box5 .colorbox1 h2 {
+    font-size: 16px; 
+    font-weight: 600;
+    text-align: center; 
+    font-style: Noto Sans KR;
+       
+}
+
+.box5 .colorbox1 p {
+    font-size: 11px; 
+    font-weight: 300;
+    text-align: left;  
+    margin-left: 65px;  
+    line-height:20px ;
+   margin-top:10px;
+   font-style: Noto Sans KR;
+}
+
+.box5 .colorbox2 {
+    width: 210px; height: 138px; background: #2E7CC1;
+    box-sizing: border-box;
+    padding-top:20px;
+
+}
+
+.box5 .colorbox2 h2 {
+    font-size: 16px; 
+    font-weight: 600;
+    font-style: Noto Sans KR;
+    text-align: center;    
+    color: #fff;
+}
+
+.box5 .colorbox2 p {
+    font-size: 11px; 
+    font-weight: 300;
+    font-style: Noto Sans KR;
+    text-align: left;  
+    margin-left: 65px;  
+    line-height:20px ;
+   margin-top:10px;
+   color: #fff;
+}
+
+.box5 .colorbox3 {
+    width: 210px; height: 138px; background: #00284B;
+    box-sizing: border-box;
+    padding-top:20px;
+
+}
+
+.box5 .colorbox3 h2 {
+    font-size: 16px; 
+    font-weight: 600;
+    font-style: Noto Sans KR;
+    text-align: center;    
+    color: #fff;
+}
+
+.box5 .colorbox3 p {
+    font-size: 11px; 
+    font-weight: 300;
+    font-style: Noto Sans KR;
+    text-align: left;  
+    margin-left: 65px; 
+    line-height:20px ;
+   margin-top:10px;
+   color: #fff;
+}
+
+.box6{
+    height:981px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box6 > .wrap{
+    position: absolute;
+    width: 1100px;
+    height:981px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box6 > .wrap > img{
+    position: absolute;
+    top: 140px;
+    right: 80px;
+}
+
+.footer{
+    height: 140px;
+    background-color: #00284B;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer > .wrap{
+    position: absolute;
+    width: 1100px;
+    height:140px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > .wrap > img {
+    position: absolute;
+    top: 24px;
+    left:50px;    
+}
+
+.footer > .wrap > .typo4{
+    position: absolute;
+    text-align: right;
+    line-height:40px ;
+    font-size: 20px;
+    right: 50px;
+    top: 28px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: -0.04em;
+}
